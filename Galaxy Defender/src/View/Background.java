@@ -32,7 +32,7 @@ public class Background extends JComponent{
 	}
 	public void paintComponent(Graphics g){
 		super.paintComponent(g);
-		g.drawImage(background,0,0,Driver.frameWidth,Driver.frameHeight,null);
+		g.drawImage(background,x,0,Driver.frameWidth*7,Driver.frameHeight,null);
 	}
 
 	
