@@ -29,10 +29,8 @@ public class Player {
 		Driver.spawner.shiftAllLeft();
 	}
 	public void moveLeft(){
-		if(Driver.background.getX()<=0){
-			Driver.background.shiftRight();
-			Driver.spawner.shiftAllRight();
-		}
+		Driver.background.shiftRight();
+		Driver.spawner.shiftAllRight();
 	}
 	public void attack(){
 		for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){

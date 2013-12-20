@@ -1,0 +1,60 @@
+package View;
+
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.JComponent;
+
+import Controller.Driver;
+/*******************************************************************************************
+ * 	Title:	Background
+ * 	Purpose: 	Handles gameplay backgrounds
+ * 
+ *	@author Larry Sell
+ *	@version 0.0.1
+ *******************************************************************************************/
+public class Background extends JComponent{
+	private int x;
+	private String imgLoc;
+	private BufferedImage background;
+	
+	public Background(int startX, String img){
+		this.x = startX;
+		this.imgLoc = img;
+		try {
+			background = ImageIO.read(new File("images/Background.png"));
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+	}
+	public void paintComponent(Graphics g){
+		super.paintComponent(g);
+		g.drawImage(background,x,0,Driver.frameWidth*7,Driver.frameHeight,null);
+		if(x< -Driver.frameWidth)
+			x=0;
+	}
+
+	
+	public void setX(int newX){
+		this.x = newX;
+		repaint();
+	}
+	public int getX(){
+		return x;
+	}
+	public void shiftLeft(){
+		x-=2;
+		repaint();
+	}
+	public void shiftRight(){
+		x+=2;
+		repaint();
+	}
+	public void setImage(String newImg){
+		imgLoc = newImg;
+		repaint();
+	}
+}
