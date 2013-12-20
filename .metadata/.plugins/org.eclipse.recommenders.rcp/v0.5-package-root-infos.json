@@ -180,5 +180,31 @@
     "jarFileModificationDate": "2013-08-06T15:50:06.309-04:00",
     "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunjce_provider.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5896b0a4e377ac4242eb2bc785220c1c4fc052f4",
+    "jarFileModificationDate": "2013-12-20T09:28:39.042-05:00",
+    "location": "C:\\Users\\Larry\\Documents\\GitHub\\Project_WinterGalaxy\\AndroidGalaxy\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "34d1182407c92fcab06a6d769019b9f59c3c5e23",
+    "jarFileModificationDate": "2013-12-08T11:41:55.179-05:00",
+    "location": "C:\\Program Files (x86)\\Android\\android-sdk\\platforms\\android-19\\android.jar",
+    "javaRuntime": false
   }
 ]

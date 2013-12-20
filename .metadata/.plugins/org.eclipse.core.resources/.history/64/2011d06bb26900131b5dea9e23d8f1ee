@@ -29,7 +29,7 @@ public class PlayerView extends JComponent {
 				imgs[j][i] = img[j].getSubimage((128) * i, 0, 128, 100);
 		}
 		try {
-			electricAttack = ImageIO.read(new File("images/ElectricAttack.png"));
+			electricAttack = ImageIO.read(new File("images/EnemyAlien.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
