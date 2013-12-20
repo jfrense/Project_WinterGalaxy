@@ -61,7 +61,7 @@ public class MainGamePanel extends SurfaceView implements SurfaceHolder.Callback
 	
 	@Override
 	protected void onDraw(Canvas canvas){
-		canvas.drawBitmap(null, 0, 0, null);
+		
 	
 	
 	}

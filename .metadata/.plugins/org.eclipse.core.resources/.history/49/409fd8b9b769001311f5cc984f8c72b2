@@ -1,0 +1,12 @@
+package com.example.androidgalaxy;
+
+public class Player {
+	public int x;
+	public int y;
+	public int power;
+	public int range;
+	public int ability;
+	public String imgLoc;
+	public boolean attacking;
+
+}
