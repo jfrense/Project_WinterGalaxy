@@ -34,9 +34,9 @@ public class EnemyAlien {
 		this.imgLoc = imageLoc;
 	}
 	public void shiftLeft(){
-		x--;
+		x-=2;
 	}
 	public void shiftRight(){
-		x++;
+		x+=2;
 	}
 }

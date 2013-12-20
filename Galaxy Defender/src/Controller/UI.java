@@ -52,13 +52,17 @@ public class UI extends JComponent implements MouseListener{
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-		if(e.getX() > 500){
+		if(e.getX() > Driver.frameWidth-200){
 			Driver.player.moveRight();
 			rightHeld = true;
 		}
-		else{
+		else if (e.getX() < 200){
 			Driver.player.moveLeft();
 			leftHeld = true;
+		}
+		else{
+			Driver.player.attacking = true;
+			Driver.player.attack();
 		}
 	}
 
@@ -66,6 +70,7 @@ public class UI extends JComponent implements MouseListener{
 	public void mouseReleased(MouseEvent arg0) {
 		rightHeld = false;
 		leftHeld = false;
+		Driver.player.attacking = false;
 	}
 
 }

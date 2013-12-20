@@ -18,6 +18,7 @@ import Controller.Driver;
  *******************************************************************************************/
 public class PlayerView extends JComponent {
 	BufferedImage[][] imgs;
+	BufferedImage electricAttack;
 	public int imgNum = 0;
 	public int frameCount = 4;
 	public PlayerView(){
@@ -27,11 +28,18 @@ public class PlayerView extends JComponent {
 			for(int i = 0; i < 4; i++)
 				imgs[j][i] = img[j].getSubimage((128) * i, 0, 128, 100);
 		}
+		try {
+			electricAttack = ImageIO.read(new File("images/EnemyAlien.png"));
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 	}
 
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		g.drawImage(imgs[0][imgNum],Driver.player.x, Driver.player.y,80,80,null);
+		if(Driver.player.attacking)
+			g.drawImage(electricAttack,Driver.player.x+80, Driver.player.y,100,60,null);
 	}
 	
 	//Read images from file and return
