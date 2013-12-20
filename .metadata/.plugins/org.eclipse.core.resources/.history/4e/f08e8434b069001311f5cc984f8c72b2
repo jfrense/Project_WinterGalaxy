@@ -1,0 +1,13 @@
+package com.example.androidgalaxy;
+
+public class MainThread extends Thread {
+	
+	private boolean running;
+	public void setRunning(boolean running){
+		this.running = running;
+		
+	}
+	
+	
+
+}

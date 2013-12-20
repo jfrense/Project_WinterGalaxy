@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e38cc5a-a768-4092-af16-467be77290ed" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.syncinfo.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.syncinfo.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1115467115.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1299022128.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1498219845.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/163172794.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1697886153.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1995173708.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/305854171.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3065916431.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/30765161.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3133528496.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3784982869.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3798024965.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3974580528.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4041092966.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4108727661.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4155206848.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/484331168.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/611044998.index" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.markers" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.markers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/org.eclipse.jdt.core/state.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/org.eclipse.jdt.core/state.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.log" afterPath="$PROJECT_DIR$/../.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
+    </list>
+    <ignored path="Galaxy Defender.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Galaxy Defender" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Driver.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.8713693" vertical-offset="0" max-vertical-offset="723">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Background.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/Background.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="5" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="930">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/EnemyView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/UI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="13" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1230">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/View/EnemyView.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Driver.java" />
+        <option value="$PROJECT_DIR$/src/View/Background.java" />
+        <option value="$PROJECT_DIR$/src/Controller/UI.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1377" />
+    <option name="y" value="-103" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Galaxy Defender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Galaxy Defender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Galaxy Defender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.cdt.core/.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.indexes/e4/44/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.indexes/e4/c5/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.markers.snap</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.syncinfo.snap</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.snap</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3784982869.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/Controller/UI.class</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/Model/EnemyAlien.class</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/Model/Player.class</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/View/Background.class</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/bin/View/PlayerView.class</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Controller/UI.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Model/EnemyAlien.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Model/Player.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/View/Background.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/src/View/PlayerView.java</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/AnalogClock.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/AutoCompleteTextView.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Button.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/CalendarView.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/CheckBox.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/CheckedTextView.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Date.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/DigitalClock.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Email.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ExpandableListView.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/LargeText.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ListView.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/MediumText.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/MultiAutoCompleteTextView.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/MultilineText.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Number.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/NumberDecimal.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/NumberSigned.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Password.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/PasswordNumeric.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/PersonName.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Phone.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/PlainText.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/PostalAddress.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ProgressBarHorizontal.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ProgressBarLarge.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ProgressBarNormal.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ProgressBarSmall.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/QuickContactBadge.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/RadioButton.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/RadioGroup.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/RatingBar.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/SeekBar.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/SmallButton.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/SmallText.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Spinner.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Switch.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/TabHost.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/TabWidget.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/TextView.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/Time.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ToggleButton.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ZoomButton.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/ZoomControls.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/com.android.ide.eclipse.adt/palette-preview-r16b-19-apptheme-37inwvganexusone/preview.properties</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1e/30394f98f2680013123fc880e045fe72</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/25/60a70d05836900131e04bc6a986cbd49</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/3c/c0caa753126900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/3d/70143790f2680013123fc880e045fe72</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/40/e0b0b231196900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/41/20b95d19116900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/57/703e146bf2680013123fc880e045fe72</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/61/c06c2905836900131e04bc6a986cbd49</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/75/b0ab0c48106900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8/9064bf9cf2680013123fc880e045fe72</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/83/70a92805836900131e04bc6a986cbd49</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8e/c0041030166900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/91/504aaab6156900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ad/50dd8386f2680013123fc880e045fe72</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/cc/40101258f2680013123fc880e045fe72</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ce/506c181c116900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d1/40366071146900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d5/f0330c7f166900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d7/802450ab166900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e2/b0f90b05836900131e04bc6a986cbd49</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ee/307e53b3156900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/fc/50156fa3166900131970b0027e6b146b</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/a0/5f/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/a0/66/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/a0/cd/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/a0/d6/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/a0/de/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/a0/de/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/a0/eb/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/a0/ee/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/af/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/e4/44/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/e4/9/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/e4/c5/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.indexes/properties.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.markers.snap</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/.syncinfo.snap</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/AndroidGalaxy/org.eclipse.egit.core/GitProjectData.properties</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.indexes/e4/9/history.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/.markers</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Galaxy Defender/org.eclipse.jdt.core/state.dat</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/2.tree</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3798024965.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/484331168.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/611044998.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/invalidArchivesCache</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Galaxy Defender/2013/12/51/refactorings.history</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Galaxy Defender/2013/12/51/refactorings.index</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.completion.rcp.calls/call-models-0.5.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.completion.rcp.overrides/ovrm-models-0.1.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/_0.fdt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/_0.fdx</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/_0.fnm</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/_0.frq</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/_0.nrm</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/_0.prx</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/_0.tii</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/_0.tis</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/segments.gen</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/index/segments_1</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/1.0.0/_maven.repositories</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/1.0.0/jre-1.0.0-call.zip</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/1.0.0/jre-1.0.0-call.zip.etag</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/1.0.0/jre-1.0.0-call.zip.sha1</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/1.0.0/jre-1.0.0.pom</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/1.0.0/jre-1.0.0.pom.etag</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/1.0.0/jre-1.0.0.pom.sha1</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/maven-metadata-remote-models.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/maven-metadata-remote-models.xml.sha1</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/resolver-status.properties</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/org/eclipse/recommenders/index/0.0.0/_maven.repositories</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/org/eclipse/recommenders/index/0.0.0/index-0.0.0.pom</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/org/eclipse/recommenders/index/0.0.0/index-0.0.0.pom.etag</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/org/eclipse/recommenders/index/0.0.0/index-0.0.0.zip</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/repository/org/eclipse/recommenders/index/0.0.0/index-0.0.0.zip.etag</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.recommenders.rcp/v0.5-package-root-infos.json</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/default_catalog.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/.classpath</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/.project</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/.settings/org.eclipse.jdt.core.prefs</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/AndroidManifest.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/bin/AndroidManifest.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/bin/classes/.gitignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/gen/.gitignore</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/ic_launcher-web.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/images/Background.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/images/EnemyAlien.PNG</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/images/PlayerWalkRight.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/libs/android-support-v4.jar</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/proguard-project.txt</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/project.properties</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/drawable-hdpi/ic_launcher.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/drawable-mdpi/ic_launcher.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/drawable-xhdpi/ic_launcher.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/drawable-xxhdpi/ic_launcher.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/layout/activity_main.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/menu/main.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/values-sw600dp/dimens.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/values-sw720dp-land/dimens.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/values-v11/styles.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/values-v14/styles.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/values/dimens.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/values/strings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/res/values/styles.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/Controller/Driver.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/Controller/UI.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/Model/EnemyAlien.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/Model/Player.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/Model/Spawner.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/View/Background.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/View/EnemyView.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/View/PlayerView.java</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../AndroidGalaxy/src/com/example/androidgalaxy/MainActivity.java</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/2.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/3.png</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
+  </component>
+  <component name="RunManager" selected="Application.Swing">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Swing" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Controller.Driver" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Galaxy Defender" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Swing" />
+    </list>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e38cc5a-a768-4092-af16-467be77290ed" name="Default" comment="" />
+      <created>1387484655917</created>
+      <updated>1387484655917</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1377" y="-103" width="1920" height="1054" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2168926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Model/Spawner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="468" selection-end="468" vertical-scroll-proportion="-0.62468517" vertical-offset="398" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="340" selection-end="340" vertical-scroll-proportion="0.28211588" vertical-offset="38" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/EnemyAlien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="0.30226701" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/EnemyAlien.PNG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/PlayerWalkRight.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/Background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="767" column="19" selection-start="35432" selection-end="35432" vertical-scroll-proportion="0.33333334" vertical-offset="11184" max-vertical-offset="17820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Galaxy Defender.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.1933405" vertical-offset="0" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="5" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="930">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/EnemyView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="13" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1230">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.8713693" vertical-offset="0" max-vertical-offset="723">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
