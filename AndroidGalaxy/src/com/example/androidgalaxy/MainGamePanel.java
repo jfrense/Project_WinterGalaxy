@@ -1,6 +1,8 @@
 package com.example.androidgalaxy;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -8,16 +10,21 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 public class MainGamePanel extends SurfaceView implements SurfaceHolder.Callback {
+	
 
 	private static final String TAG = MainGamePanel.class.getSimpleName();
 	
 	private MainThread thread;
+	private Background background;
 
 	public MainGamePanel(Context context) {
 		super(context);
 
 		// adding the callback (this) to the surface holder to intercept events
 		getHolder().addCallback(this);
+		
+		// create and load background
+		background = new Background(BitmapFactory.decodeResource(getResources(), R.drawable.background));
 
 		// creating game thread
 		thread = new MainThread(getHolder(), this);
@@ -36,6 +43,8 @@ public class MainGamePanel extends SurfaceView implements SurfaceHolder.Callback
 	public void surfaceCreated(SurfaceHolder arg0) {
 		thread.setRunning(true);
 		thread.start();
+		
+		
 	}
 
 	@Override
@@ -61,7 +70,9 @@ public class MainGamePanel extends SurfaceView implements SurfaceHolder.Callback
 	
 	@Override
 	protected void onDraw(Canvas canvas){
-		canvas.drawBitmap(null, 0, 0, null);
+		canvas.drawBitmap(background.getBackgroundImage(), 0, 0, null);
+		
+		
 	
 	
 	}

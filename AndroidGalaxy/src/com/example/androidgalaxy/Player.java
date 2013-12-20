@@ -15,6 +15,7 @@ public class Player extends Drawable {
 	@Override
 	public void draw(Canvas canvas) {
 		
+		
 	}
 	@Override
 	public int getOpacity() {

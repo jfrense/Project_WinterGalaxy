@@ -1,0 +1,22 @@
+package com.example.androidgalaxy;
+
+public class Background {
+	private String imageLoc;
+	
+	public Background(String imageLoc){
+		
+		this.setImageLoc(imageLoc);
+	}
+
+	public String getImageLoc() {
+		return imageLoc;
+	}
+
+	public void setImageLoc(String imageLoc) {
+		this.imageLoc = imageLoc;
+	}
+	
+	
+	
+
+}

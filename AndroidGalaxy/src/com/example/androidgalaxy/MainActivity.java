@@ -2,6 +2,9 @@ package com.example.androidgalaxy;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
@@ -9,6 +12,7 @@ import android.view.WindowManager;
 public class MainActivity extends Activity {
 
 	private static final String TAG = MainActivity.class.getSimpleName();
+	public static Bitmap Background;
 
 
 	// called when the activity is first created, think of this as the main
@@ -20,15 +24,24 @@ public class MainActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		// making the game fullScreen
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		
+		// set screen to landscape mode when playing game
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
+				
 
 		// setting the mainGamePanel as the view
 		setContentView(new MainGamePanel(this));
+		
+		//Bitmap background = BitmapFactory.decodeResource(getResources(), R.drawable.background);			
+		
 	}
 
 	@Override
 	protected void onDestroy(){
 		Log.d(TAG, "Destroying...");
 		super.onDestroy();
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 	}
 
