@@ -34,7 +34,7 @@ public class Player {
 	}
 	public void attack(){
 		for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){
-			if((Driver.spawner.getEnemies().get(i).x > Driver.player.x)&&(Driver.spawner.getEnemies().get(i).x < Driver.player.x+range+80)){
+			if((Driver.spawner.getEnemies().get(i).x > Driver.player.x)&&(Driver.spawner.getEnemies().get(i).x < Driver.player.x+100)){
 				Driver.spawner.getEnemies().remove(i);
 			}
 		}
