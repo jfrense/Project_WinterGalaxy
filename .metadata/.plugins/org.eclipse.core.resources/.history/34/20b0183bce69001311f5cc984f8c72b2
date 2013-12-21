@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 	protected void onDestroy(){
 		Log.d(TAG, "Destroying...");
 		super.onDestroy();
-		
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 	}
 
