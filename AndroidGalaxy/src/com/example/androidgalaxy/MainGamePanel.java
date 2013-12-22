@@ -1,10 +1,12 @@
 package com.example.androidgalaxy;
 
 import Model.Background;
+import Model.Player;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
@@ -17,6 +19,10 @@ public class MainGamePanel extends SurfaceView implements SurfaceHolder.Callback
 	
 	private MainThread thread;
 	private Background background;
+	private Player mainPlayer;
+	private boolean continueScrollingForward;
+	private boolean continueScrollingBackward;
+
 
 	public MainGamePanel(Context context) {
 		super(context);
@@ -24,8 +30,15 @@ public class MainGamePanel extends SurfaceView implements SurfaceHolder.Callback
 		// adding the callback (this) to the surface holder to intercept events
 		getHolder().addCallback(this);
 		
+		DisplayMetrics metrics = context.getResources().getDisplayMetrics();
+		int screenWidth = metrics.widthPixels;
+		int screenHeight = metrics.heightPixels;
 		// create and load background
-		background = new Background(BitmapFactory.decodeResource(getResources(), R.drawable.background));
+		background = new Background(BitmapFactory.decodeResource(getResources(), R.drawable.background),0,0, BitmapFactory.decodeResource(getResources(), R.drawable.background).getWidth(), 
+				BitmapFactory.decodeResource(getResources(), R.drawable.background).getHeight());
+		
+		//create and load main character
+		mainPlayer = new Player(BitmapFactory.decodeResource(getResources(), R.drawable.playerwalkright), screenWidth - (screenWidth - 50) , screenHeight - (screenHeight - 280), 128, 100, 5, 4);
 
 		// creating game thread
 		thread = new MainThread(getHolder(), this);
@@ -66,16 +79,52 @@ public class MainGamePanel extends SurfaceView implements SurfaceHolder.Callback
 	
 	@Override
 	public boolean onTouchEvent(MotionEvent event){
-		return super.onTouchEvent(event);
+	
+		
+		
+		
+		if(event.getAction() == MotionEvent.ACTION_UP){
+			
+			continueScrollingBackward = false;
+			continueScrollingForward = false;
+
+		}
+			
+		
+		else if (event.getAction() == MotionEvent.ACTION_DOWN && event.getX() > mainPlayer.getX()) {
+			 continueScrollingBackward = true;
+		}
+		else if (event.getAction() == MotionEvent.ACTION_DOWN && event.getX() < mainPlayer.getX()){
+			continueScrollingForward = true;
+			
+		}
+		
+		
+		
+		
+		return true;
+
 	}
 	
-	@Override
-	protected void onDraw(Canvas canvas){
-		canvas.drawBitmap(background.getBackgroundImage(), 0, 0, null);
+	// render images onto screen
+	public void render(Canvas canvas){
+	//	canvas.drawBitmap(background.getBackgroundImage(), 0, 0, null);
+		background.draw(canvas);
+		mainPlayer.draw(canvas);
+
 		
+	}
+	
+	public void update(){
+		if(continueScrollingBackward){
+			mainPlayer.update(System.currentTimeMillis());
+			background.ScrollBackward();
+		}
+		else if(continueScrollingForward){
+			mainPlayer.update(System.currentTimeMillis());
+			background.ScrollForward();
+		}
 		
-	
-	
 	}
 
 
