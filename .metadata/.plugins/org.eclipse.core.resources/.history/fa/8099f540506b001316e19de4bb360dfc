@@ -27,22 +27,21 @@ public class Player extends Alien {
 		}
 	}
 	public void jump(){
-		if(getY() == 280)
-			setY(190);
-		else if (getY() == 418)
-			setY(280);
+		if(y == 280)
+			y = 190;
+		else if (y == 418)
+			y = 280;
 	}
 	public void crouch(){
-		if(getY() == 190)
-			setY(280);
-		else if (getY() == 280)
-			setY(418);
+		if(y == 190)
+			y = 280;
+		else if (y == 280)
+			y = 418;
 	}
 	public void attack(){
 		for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){
-			if((Driver.spawner.getEnemies().get(i).getX() > Driver.player.getX()) && 
-			  (Driver.spawner.getEnemies().get(i).getX() < Driver.player.getX()+getRange()+80) &&
-			  (Driver.spawner.getEnemies().get(i).getY() == getY())){
+			if((Driver.spawner.getEnemies().get(i).x > Driver.player.x)&&(Driver.spawner.getEnemies().get(i).x < Driver.player.x+range+80) &&
+			  (Driver.spawner.getEnemies().get(i).y == y)){
 				Driver.spawner.getEnemies().remove(i);
 			}
 		}

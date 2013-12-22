@@ -15,9 +15,9 @@ public class EnemyAlien extends Alien {
 		this.setImgLoc("images/EnemyAlien");
 	}
 	public void shiftLeft(){
-		this.setX(getX()-2);
+		x-=2;
 	}
 	public void shiftRight(){
-		this.setX(getX()+2);
+		x+=2;
 	}
 }

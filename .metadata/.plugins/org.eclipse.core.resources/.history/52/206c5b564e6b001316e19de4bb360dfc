@@ -19,7 +19,7 @@ public class Driver {
 	public static UI uI = new UI();
 	public static Background background = new Background(0, "images\background");
 	public static Spawner spawner = new Spawner(new int[]{190,280,418});
-	public static Player player = new Player(150,418,5,100,1);
+	public static Player player = new Player(150,418,5,100,1,"a");
 	public static PlayerView pView = new PlayerView();
 	public static EnemyView eView = new EnemyView();
 	

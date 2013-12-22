@@ -1,0 +1,16 @@
+package Model;
+
+public class Alien {
+	public int x;
+	public int y;
+	public int power;
+	public int range;
+	public String imgLoc;
+	
+	public Alien(int xCoor, int yCoor, int power, int range){
+		this.x = xCoor;
+		this.y = yCoor;
+		this.power = power;
+		this.range = range;
+	}
+}

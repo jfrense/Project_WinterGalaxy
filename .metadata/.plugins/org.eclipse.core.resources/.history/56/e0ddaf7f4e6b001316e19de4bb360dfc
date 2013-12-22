@@ -62,6 +62,7 @@ public class UI extends JComponent implements MouseListener{
 		}
 		else if ((e.getX()>100)&&(e.getX()<160)&&(e.getY()>Driver.frameHeight-185)&&(e.getY()<Driver.frameHeight-125)){
 			Driver.player.jump();
+			System.out.println("up");
 		}
 		else if ((e.getX()>100)&&(e.getX()<160)&&(e.getY()>Driver.frameHeight-85)&&(e.getY()<Driver.frameHeight-25)){
 			Driver.player.crouch();

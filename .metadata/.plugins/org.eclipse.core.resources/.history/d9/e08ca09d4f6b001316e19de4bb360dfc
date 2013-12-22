@@ -12,12 +12,12 @@ public class EnemyAlien extends Alien {
 	 */
 	public EnemyAlien(int xCoor, int yCoor, int power, int range){
 		super(xCoor, yCoor, power, range);
-		this.setImgLoc("images/EnemyAlien");
+		this.imgLoc = "images/EnemyAlien";
 	}
 	public void shiftLeft(){
-		this.setX(getX()-2);
+		x-=2;
 	}
 	public void shiftRight(){
-		this.setX(getX()+2);
+		x+=2;
 	}
 }

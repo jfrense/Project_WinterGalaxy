@@ -28,7 +28,7 @@ public class EnemyView extends JComponent{
 	
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){ 
+		for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){
 			g.drawImage(enemyImg,Driver.spawner.getEnemies().get(i).getX(),Driver.spawner.getEnemies().get(i).getY(),75,75,null);
 		}
 	}

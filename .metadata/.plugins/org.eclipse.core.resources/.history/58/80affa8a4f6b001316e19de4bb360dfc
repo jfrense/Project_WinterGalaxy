@@ -1,0 +1,40 @@
+package Model;
+
+public class Alien {
+	public int x;
+	public int y;
+	public int power;
+	public int range;
+	public String imgLoc;
+	
+	public Alien(int xCoor, int yCoor, int power, int range){
+		this.x = xCoor;
+		this.y = yCoor;
+		this.power = power;
+		this.range = range;
+	}
+	public int getX(){
+		return x;
+	}
+	public int getY(){
+		return y;
+	}
+	public int getPower(){
+		return power;
+	}
+	public int getRange(){
+		return range;
+	}
+	public void setX(int xCoor){
+		this.x = xCoor;
+	}
+	public void setY(int yCoor){
+		this.y = yCoor;
+	}
+	public void setPower(int p){
+		this.power = p;
+	}
+	public void setRange(int r){
+		this.range = r;
+	}
+}
