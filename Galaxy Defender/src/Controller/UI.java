@@ -13,9 +13,8 @@ import javax.swing.JComponent;
  *	@version 0.0.1
  *******************************************************************************************/
 public class UI extends JComponent implements MouseListener{
-	public boolean rightHeld = false;
-	public boolean leftHeld = false;
-	public int moveCount = 0;
+	public boolean rightHeld, leftHeld;
+	public int moveCount = 0;		// Used to spawn enemies based on distance walked
 	public UI(){
 		addMouseListener(this);
 	}
@@ -26,10 +25,11 @@ public class UI extends JComponent implements MouseListener{
 			Driver.player.moveRight();
 			moveCount++;
 		}
-		else if( leftHeld){
+		if( leftHeld){
 			Driver.player.moveLeft();
 			moveCount--;
 		}
+		
 		if(moveCount > 500){
 			Driver.spawner.addEnemy();
 			moveCount = 0;
@@ -52,13 +52,20 @@ public class UI extends JComponent implements MouseListener{
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-		if(e.getX() > Driver.frameWidth-200){
+		if((e.getX()>150)&&(e.getX()<210)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
 			Driver.player.moveRight();
 			rightHeld = true;
 		}
-		else if (e.getX() < 200){
+		else if ((e.getX()>50)&&(e.getX()<110)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
 			Driver.player.moveLeft();
 			leftHeld = true;
+		}
+		else if ((e.getX()>100)&&(e.getX()<160)&&(e.getY()>Driver.frameHeight-185)&&(e.getY()<Driver.frameHeight-125)){
+			Driver.player.jump();
+			System.out.println("up");
+		}
+		else if ((e.getX()>100)&&(e.getX()<160)&&(e.getY()>Driver.frameHeight-85)&&(e.getY()<Driver.frameHeight-25)){
+			Driver.player.crouch();
 		}
 		else{
 			Driver.player.attacking = true;

@@ -34,9 +34,22 @@ public class Player {
 			Driver.spawner.shiftAllRight();
 		}
 	}
+	public void jump(){
+		if(y == 280)
+			y = 190;
+		else if (y == 418)
+			y = 280;
+	}
+	public void crouch(){
+		if(y == 190)
+			y = 280;
+		else if (y == 280)
+			y = 418;
+	}
 	public void attack(){
 		for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){
-			if((Driver.spawner.getEnemies().get(i).x > Driver.player.x)&&(Driver.spawner.getEnemies().get(i).x < Driver.player.x+range+80)){
+			if((Driver.spawner.getEnemies().get(i).x > Driver.player.x)&&(Driver.spawner.getEnemies().get(i).x < Driver.player.x+range+80) &&
+			  (Driver.spawner.getEnemies().get(i).y == y)){
 				Driver.spawner.getEnemies().remove(i);
 			}
 		}
