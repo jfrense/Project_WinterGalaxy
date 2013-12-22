@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 INDEX VERSION 1.126+/Users/Justin/Documents/Project_WinterGalaxy/.metadata/.plugins/org.eclipse.jdt.core
 3712507179.index
 1441840584.index
@@ -17,6 +16,7 @@ INDEX VERSION 1.126+/Users/Justin/Documents/Project_WinterGalaxy/.metadata/.plug
 1833648217.index
 450555687.index
 1384487945.index
+2328942654.index
 2545238116.index
 4249315662.index
 765977872.index
@@ -24,24 +24,3 @@ INDEX VERSION 1.126+/Users/Justin/Documents/Project_WinterGalaxy/.metadata/.plug
 3321539481.index
 2326659272.index
 3266567714.index
-=======
-INDEX VERSION 1.126+C:\Users\Larry\Documents\GitHub\Project_WinterGalaxy\.metadata\.plugins\org.eclipse.jdt.core
-1115467115.index
-3133528496.index
-1020133932.index
-4108727661.index
-1498219845.index
-3798024965.index
-1299022128.index
-1697886153.index
-3784982869.index
-1995173708.index
-3974580528.index
-163172794.index
-30765161.index
-3065916431.index
-4155206848.index
-484331168.index
-305854171.index
-4041092966.index
->>>>>>> 843821bdecced0bee951316265f34fc055f8fbc0
