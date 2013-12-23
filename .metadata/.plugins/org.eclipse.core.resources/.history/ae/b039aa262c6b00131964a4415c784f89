@@ -114,7 +114,7 @@ public void ScrollBackward(){
 	}
 	
 	public void draw(Canvas canvas) {
-		// where to draw the background
+		// where to draw the sprite
 		Rect destRect = new Rect(getX(), getY(), getX() + backgroundWidth, getY() + backgroundHeight);
 		canvas.drawBitmap(backgroundImage, sourceRect, destRect, null);
 		

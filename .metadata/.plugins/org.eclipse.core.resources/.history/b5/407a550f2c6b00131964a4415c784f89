@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 		// setting the mainGamePanel as the view
 		setContentView(new MainGamePanel(this));
 		
-					
+		//Bitmap background = BitmapFactory.decodeResource(getResources(), R.drawable.background);			
 		
 	}
 
