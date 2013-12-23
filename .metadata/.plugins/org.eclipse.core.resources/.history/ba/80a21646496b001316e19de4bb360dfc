@@ -1,0 +1,85 @@
+package Controller;
+
+import java.awt.Graphics;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+import javax.swing.JComponent;
+/*******************************************************************************************
+ * 	Title:	User Interface
+ * 	Purpose: 	Handles all user control of the game
+ * 
+ *	@author Larry Sell
+ *	@version 0.0.1
+ *******************************************************************************************/
+public class UI extends JComponent implements MouseListener{
+	public boolean rightHeld, leftHeld, upHeld, downHeld;
+	public int moveCount = 0;		// Used to spawn enemies based on distance walked
+	public UI(){
+		addMouseListener(this);
+	}
+	public void paintComponent(Graphics g){
+		super.paintComponent(g);
+		if(rightHeld){
+			Driver.pView.imgNum = (Driver.pView.imgNum + 1) % Driver.pView.frameCount;
+			Driver.player.moveRight();
+			moveCount++;
+		}
+		else if( leftHeld){
+			Driver.player.moveLeft();
+			moveCount--;
+		}
+		if(moveCount > 500){
+			Driver.spawner.addEnemy();
+			moveCount = 0;
+		}
+		repaint();
+	}
+
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		//System.out.println("X: " + e.getX() +"\t Y: " + e.getY());
+	}
+
+	@Override
+	public void mouseEntered(MouseEvent arg0) {
+	}
+
+	@Override
+	public void mouseExited(MouseEvent arg0) {
+	}
+
+	@Override
+	public void mousePressed(MouseEvent e) {
+		if((e.getX()>150)&&(e.getX()<210)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
+			Driver.player.moveRight();
+			rightHeld = true;
+		}
+		else if ((e.getX()>50)&&(e.getX()<110)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
+			Driver.player.moveLeft();
+			leftHeld = true;
+		}
+		else if ((e.getX()>100)&&(e.getX()<160)&&(e.getY()>Driver.frameHeight-185)&&(e.getY()<Driver.frameHeight-125)){
+			Driver.player.jump();
+			upHeld = true;
+		}
+		else if ((e.getX()>100)&&(e.getX()<160)&&(e.getY()>Driver.frameHeight-85)&&(e.getY()<Driver.frameHeight-25)){
+			Driver.player.crouch();
+			downHeld = true;
+		}
+		else{
+			Driver.player.attacking = true;
+			Driver.player.attack();
+		}
+	}
+
+	@Override
+	public void mouseReleased(MouseEvent arg0) {
+		rightHeld = false;
+		leftHeld = false;
+		upHeld = false;
+		downHeld = false;
+		Driver.player.attacking = false;
+	}
+
+}

@@ -6,37 +6,18 @@ package Model;
  *	@author Larry Sell
  *	@version 0.0.1
  *******************************************************************************************/
-public class EnemyAlien {
-	public int x;
-	public int y;
-	public int power;
-	public int range;
-	public String imgLoc;
-	
+public class EnemyAlien extends Alien {
 	/*
 	 * Constructor with Pre-Determined Image 
 	 */
 	public EnemyAlien(int xCoor, int yCoor, int power, int range){
-		this.x = xCoor;
-		this.y = yCoor;
-		this.power = power;
-		this.range = range;
-		this.imgLoc = "images/EnemyAlien";
-	}
-	/*
-	 * Main Constructor 
-	 */
-	public EnemyAlien(int xCoor, int yCoor, int power, int range, String imageLoc){
-		this.x = xCoor;
-		this.y = yCoor;
-		this.power = power;
-		this.range = range;
-		this.imgLoc = imageLoc;
+		super(xCoor, yCoor, power, range);
+		this.setImgLoc("images/EnemyAlien");
 	}
 	public void shiftLeft(){
-		x-=2;
+		this.setX(getX()-2);
 	}
 	public void shiftRight(){
-		x+=2;
+		this.setX(getX()+2);
 	}
 }

@@ -35,7 +35,7 @@ public class Spawner {
 	// Method removes the enemy at (xCoor,YCoor)
 	public void removeEnemy(int xCoor, int yCoor){
 		for(int i = 0; i<enemies.size(); i++)
-			if((enemies.get(i).x ==xCoor) && (enemies.get(i).y ==yCoor)){
+			if((enemies.get(i).getX() == xCoor) && (enemies.get(i).getY() == yCoor)){
 				enemies.remove(i);
 				break;
 			}
