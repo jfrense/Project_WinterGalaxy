@@ -34,19 +34,15 @@ public class EnemyView extends JComponent{
 			g.drawImage(enemyImg,Driver.spawner.getEnemies().get(i).getX(),Driver.spawner.getEnemies().get(i).getY(),75,75,null);
 			// Draw Enemies' Attack
 			if(Driver.spawner.getEnemies().get(i).isAttacking()){
-				if(Driver.player.getY() == Driver.spawner.getEnemies().get(i).getY()){
 					g.drawImage(plasmaAttack,Driver.spawner.getEnemies().get(i).plasmaX, Driver.player.getY(),25,25,null);
 					Driver.spawner.getEnemies().get(i).setCurrentTime();
-					Driver.spawner.getEnemies().get(i).plasmaX -= (int)(0.01*(Driver.spawner.getEnemies().get(i).currentTime - Driver.spawner.getEnemies().get(i).startTime));
+					Driver.spawner.getEnemies().get(i).plasmaX -= (int)(0.001*(Driver.spawner.getEnemies().get(i).currentTime - Driver.spawner.getEnemies().get(i).startTime));
 					
 					// If player is hit
 					if(Driver.spawner.getEnemies().get(i).plasmaX <= Driver.player.getX()){
 						Driver.spawner.getEnemies().get(i).hit();
 						Driver.spawner.getEnemies().get(i).resetPlasmaX();
 					}
-				}
-				else
-					Driver.spawner.getEnemies().get(i).setAttacking(false);
 			}
 		}
 	}

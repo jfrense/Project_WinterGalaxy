@@ -44,10 +44,10 @@ public class Background extends JComponent{
 		return x;
 	}
 	public void shiftLeft(){
-		x--;
+		x-=2;
 	}
 	public void shiftRight(){
-		x--;
+		x+=2;
 	}
 	public void setImage(String newImg){
 		imgLoc = newImg;

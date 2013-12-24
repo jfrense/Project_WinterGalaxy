@@ -32,10 +32,8 @@ public class EnemyAlien extends Alien {
 	}
 	public void hit(){
 		Driver.player.setHealth(Driver.player.getHealth()-getPower());
-		if(Driver.player.getHealth() <= 0){
-			Driver.spawner.stopAll();
+		if(Driver.player.getHealth() <= 0)
 			Driver.player.setAlive(false);
-		}
 	}
 	public void setCurrentTime(){
 		currentTime = System.currentTimeMillis();
