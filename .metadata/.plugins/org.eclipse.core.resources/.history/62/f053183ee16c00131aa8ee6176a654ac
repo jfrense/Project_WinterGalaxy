@@ -56,7 +56,7 @@ public class PlayerView extends JComponent {
 		Graphics2D g2d = (Graphics2D) g;
 		g2d.setStroke(new BasicStroke(3));
 		g2d.drawRect(hBarLoc, 10, 60, 50);
-		g2d.drawRect(hBarLoc+60, 10, 202, 50);
+		g2d.drawRect(hBarLoc+60, 10, 155, 50);
 		g2d.setColor(new Color(255, 0, 0));					// Low Attract => Red
 		// Negative Case
 		if(Driver.player.getHealth() < 0)				
@@ -67,12 +67,12 @@ public class PlayerView extends JComponent {
 				g2d.setColor(new Color(255, 255, 0));			// Medium Attract => Yellow 
 			else if(Driver.player.getHealth() > 66)
 				g2d.setColor(new Color(0, 255, 0));			// Good Attract => Green
-			g2d.fillRect(hBarLoc+62, 12, Driver.player.getHealth()*2, 47);
+			g2d.fillRect(hBarLoc+62, 12, Driver.player.getHealth(), 47);
 		}
 		// Over Max Case
 		else {													
 			g2d.setColor(new Color(0, 255, 0));				// Good Attract => Green
-			g2d.fillRect(hBarLoc+62, 12, 200, 47);
+			g2d.fillRect(hBarLoc+62, 12, 153, 47);
 		}
 		repaint();
 	}

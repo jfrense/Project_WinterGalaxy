@@ -1,9 +1,6 @@
 package View;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -24,7 +21,6 @@ public class PlayerView extends JComponent {
 	BufferedImage dPad,electricAttack;
 	public int imgNum = 0;
 	public int frameCount = 4;
-	public int hBarLoc = 100;
 	public PlayerView(){
 		BufferedImage[] img = createAnimation();
 		imgs = new BufferedImage[img.length][frameCount];
@@ -53,28 +49,23 @@ public class PlayerView extends JComponent {
 			g.drawImage(electricAttack,Driver.player.getX()+80, Driver.player.getY(),Driver.player.getRange(),60,null);
 		
 		// Health Bar
-		Graphics2D g2d = (Graphics2D) g;
 		g2d.setStroke(new BasicStroke(3));
-		g2d.drawRect(hBarLoc, 10, 60, 50);
-		g2d.drawRect(hBarLoc+60, 10, 202, 50);
+		g2d.drawRect(aPanelLoc, 10, 60, 50);
+		g2d.drawRect(aPanelLoc+60, 10, 155, 50);
 		g2d.setColor(new Color(255, 0, 0));					// Low Attract => Red
-		// Negative Case
-		if(Driver.player.getHealth() < 0)				
-			g2d.fillRect(hBarLoc+62, 12, 0, 47);
-		// Normal Case
-		else if(Driver.player.getHealth() <= 100){		
-			if ((Driver.player.getHealth() > 33) && (Driver.player.getHealth() <= 66))
+		if(Garden.CurrentGardenAttractionRate()<0)				// Negative Case
+			g2d.fillRect(aPanelLoc+62, 12, 0, 47);
+		else if(Garden.CurrentGardenAttractionRate()<=9){		// Normal Case
+			if ((Garden.CurrentGardenAttractionRate()>3) && (Garden.CurrentGardenAttractionRate()<=6))
 				g2d.setColor(new Color(255, 255, 0));			// Medium Attract => Yellow 
-			else if(Driver.player.getHealth() > 66)
+			else if(Garden.CurrentGardenAttractionRate()>6)
 				g2d.setColor(new Color(0, 255, 0));			// Good Attract => Green
-			g2d.fillRect(hBarLoc+62, 12, Driver.player.getHealth()*2, 47);
+			g2d.fillRect(aPanelLoc+62, 12, Garden.CurrentGardenAttractionRate()*17, 47);
 		}
-		// Over Max Case
-		else {													
+		else {													// Over Max Case
 			g2d.setColor(new Color(0, 255, 0));				// Good Attract => Green
-			g2d.fillRect(hBarLoc+62, 12, 200, 47);
+			g2d.fillRect(aPanelLoc+62, 12, 153, 47);
 		}
-		repaint();
 	}
 	
 	//Read images from file and return
