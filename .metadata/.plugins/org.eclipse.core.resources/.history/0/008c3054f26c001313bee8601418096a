@@ -22,10 +22,12 @@ import Controller.Driver;
  *******************************************************************************************/
 public class EnemyView extends JComponent{
 	public BufferedImage enemyImg, plasmaAttack;
+	public JLabel healthLabel;
 	public EnemyView(){
 		try {
 			enemyImg = ImageIO.read(new File("images/EnemyAlien.png"));
 			plasmaAttack = ImageIO.read(new File("images/ElectricAttack.png"));
+			healthLabel = new JLabel("Health");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

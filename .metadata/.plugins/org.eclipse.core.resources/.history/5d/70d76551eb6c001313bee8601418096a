@@ -10,7 +10,6 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.swing.JComponent;
-import javax.swing.JLabel;
 
 import Controller.Driver;
 /*******************************************************************************************
@@ -57,22 +56,23 @@ public class EnemyView extends JComponent{
 			// Health Bar
 			Graphics2D g2d = (Graphics2D) g;
 			g2d.setStroke(new BasicStroke(3));
+			g2d.drawRect(Driver.spawner.getEnemies().get(i).getX()-10, Driver.spawner.getEnemies().get(i).getX()-50, 60, 50);
 			g2d.setColor(new Color(255, 0, 0));					// Low Attract => Red
 			// Negative Case
-			if(Driver.spawner.getEnemies().get(i).getHealth() < 0)				
-				g2d.fillRect(Driver.spawner.getEnemies().get(i).getX(), Driver.spawner.getEnemies().get(i).getY()-30, 0, 22);
+			if(Driver.player.getHealth() < 0)				
+				g2d.fillRect(Driver.spawner.getEnemies().get(i).getX()-10, 12, 0, 47);
 			// Normal Case
 			else if(Driver.player.getHealth() <= 100){		
-				if ((Driver.spawner.getEnemies().get(i).getHealth() > 33) && (Driver.spawner.getEnemies().get(i).getHealth() <= 66))
+				if ((Driver.player.getHealth() > 33) && (Driver.player.getHealth() <= 66))
 					g2d.setColor(new Color(255, 255, 0));			// Medium Attract => Yellow 
 				else if(Driver.player.getHealth() > 66)
 					g2d.setColor(new Color(0, 255, 0));			// Good Attract => Green
-				g2d.fillRect(Driver.spawner.getEnemies().get(i).getX(), Driver.spawner.getEnemies().get(i).getY()-30, Driver.spawner.getEnemies().get(i).getHealth(), 22);
+				g2d.fillRect(Driver.spawner.getEnemies().get(i).getX()-10, 12, Driver.player.getHealth()*2, 47);
 			}
 			// Over Max Case
 			else {													
 				g2d.setColor(new Color(0, 255, 0));				// Good Attract => Green
-				g2d.fillRect(Driver.spawner.getEnemies().get(i).getX(), Driver.spawner.getEnemies().get(i).getY()-30, 100, 22);
+				g2d.fillRect(Driver.spawner.getEnemies().get(i).getX()-10, 12, 200, 47);
 			}
 		}
 	}

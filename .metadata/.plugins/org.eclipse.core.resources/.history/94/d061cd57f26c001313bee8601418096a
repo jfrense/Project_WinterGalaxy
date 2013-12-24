@@ -10,7 +10,6 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.swing.JComponent;
-import javax.swing.JLabel;
 
 import Controller.Driver;
 /*******************************************************************************************
@@ -23,10 +22,9 @@ import Controller.Driver;
 public class PlayerView extends JComponent {
 	BufferedImage[][] imgs;
 	BufferedImage dPad,electricAttack;
-	public JLabel healthLabel;
 	public int imgNum = 0;
 	public int frameCount = 4;
-	public int hBarLoc = 50;
+	public int hBarLoc = 100;
 	public PlayerView(){
 		BufferedImage[] img = createAnimation();
 		imgs = new BufferedImage[img.length][frameCount];
@@ -37,7 +35,6 @@ public class PlayerView extends JComponent {
 		try {
 			dPad = ImageIO.read(new File("images/D-Pad.png"));
 			electricAttack = ImageIO.read(new File("images/ElectricAttack.png"));
-			healthLabel = new JLabel("Health");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -56,8 +53,6 @@ public class PlayerView extends JComponent {
 			g.drawImage(electricAttack,Driver.player.getX()+80, Driver.player.getY(),Driver.player.getRange(),60,null);
 		
 		// Health Bar
-		add(healthLabel);
-		healthLabel.setBounds(hBarLoc+10, 10, 60, 50);
 		Graphics2D g2d = (Graphics2D) g;
 		g2d.setStroke(new BasicStroke(3));
 		g2d.drawRect(hBarLoc, 10, 60, 50);

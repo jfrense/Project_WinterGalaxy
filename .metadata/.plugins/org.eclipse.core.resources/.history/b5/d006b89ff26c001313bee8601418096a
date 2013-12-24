@@ -57,7 +57,7 @@ public class PlayerView extends JComponent {
 		
 		// Health Bar
 		add(healthLabel);
-		healthLabel.setBounds(hBarLoc+10, 10, 60, 50);
+		healthLabel.setBounds(hBarLoc, 10, 60, 50);
 		Graphics2D g2d = (Graphics2D) g;
 		g2d.setStroke(new BasicStroke(3));
 		g2d.drawRect(hBarLoc, 10, 60, 50);
