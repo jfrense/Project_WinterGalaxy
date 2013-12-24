@@ -1,12 +1,5 @@
 package Model;
-/*******************************************************************************************
- * 	Title:	Alien
- * 	Purpose: 	Superclass for Player and EnemyAlien. 
- * 				Contains all common attributes, and Getters and Setters.
- * 
- *	@author Larry Sell
- *	@version 0.0.1
- *******************************************************************************************/
+
 public class Alien {
 	private int x;
 	private int y;
