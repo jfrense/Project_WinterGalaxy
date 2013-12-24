@@ -1,4 +1,7 @@
 package Model;
+
+import Controller.Driver;
+
 /*******************************************************************************************
  * 	Title:	Enemy Alien
  * 	Purpose: 	Handles Enemy Alien Object
@@ -10,8 +13,8 @@ public class EnemyAlien extends Alien {
 	/*
 	 * Constructor with Pre-Determined Image 
 	 */
-	public EnemyAlien(int xCoor, int yCoor, int power, int range){
-		super(xCoor, yCoor, power, range);
+	public EnemyAlien(int xCoor, int yCoor, int power, int range, int health){
+		super(xCoor, yCoor, power, range, health);
 		this.setImgLoc("images/EnemyAlien");
 	}
 	public void shiftLeft(){
@@ -19,5 +22,10 @@ public class EnemyAlien extends Alien {
 	}
 	public void shiftRight(){
 		this.setX(getX()+2);
+	}
+	public void attack(){
+		Driver.player.setHealth(Driver.player.getHealth()-getPower());
+		if(Driver.player.getHealth() <= 0)
+			Driver.player.setAlive(false);
 	}
 }

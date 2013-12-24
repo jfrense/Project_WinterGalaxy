@@ -9,12 +9,13 @@ import Controller.Driver;
  *	@version 0.0.1
  *******************************************************************************************/
 public class Player extends Alien {
-	public int ability;
-	public boolean attacking;
+	private int ability;
+	private boolean isAlive; 
 	
-	public Player(int xCoor, int yCoor, int power, int range, int ability){
-		super(xCoor, yCoor, power, range);
+	public Player(int xCoor, int yCoor, int power, int range, int health, int ability){
+		super(xCoor, yCoor, power, range, health);
 		this.ability = ability;
+		this.isAlive = true;
 	}
 	public void moveRight(){
 		Driver.background.shiftLeft();
@@ -39,12 +40,21 @@ public class Player extends Alien {
 			setY(418);
 	}
 	public void attack(){
-		for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){
-			if((Driver.spawner.getEnemies().get(i).getX() > Driver.player.getX()) && 
-			  (Driver.spawner.getEnemies().get(i).getX() < Driver.player.getX()+getRange()+80) &&
-			  (Driver.spawner.getEnemies().get(i).getY() == getY())){
-				Driver.spawner.getEnemies().remove(i);
+		if(isAlive){
+			for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){
+				if((Driver.spawner.getEnemies().get(i).getX() > getX()) && (Driver.spawner.getEnemies().get(i).getX() < getX()+getRange()+80) &&
+				  (Driver.spawner.getEnemies().get(i).getY() == getY())){
+					Driver.spawner.getEnemies().get(i).setHealth(Driver.spawner.getEnemies().get(i).getHealth() - getPower());
+						if(Driver.spawner.getEnemies().get(i).getHealth() <= 0)
+							Driver.spawner.getEnemies().remove(i);
+				}
 			}
 		}
+	}
+	public boolean isAlive(){
+		return isAlive;
+	}
+	public void setAlive(boolean a){
+		this.isAlive = a;
 	}
 }

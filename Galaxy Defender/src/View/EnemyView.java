@@ -17,10 +17,11 @@ import Controller.Driver;
  *	@version 0.0.1
  *******************************************************************************************/
 public class EnemyView extends JComponent{
-	public BufferedImage enemyImg;
+	public BufferedImage enemyImg, plasmaAttack;
 	public EnemyView(){
 		try {
 			enemyImg = ImageIO.read(new File("images/EnemyAlien.png"));
+			plasmaAttack = ImageIO.read(new File("images/ElectricAttack.png"));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -29,7 +30,14 @@ public class EnemyView extends JComponent{
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		for(int i = 0; i < Driver.spawner.getEnemies().size(); i++){ 
+			// Draw Enemies
 			g.drawImage(enemyImg,Driver.spawner.getEnemies().get(i).getX(),Driver.spawner.getEnemies().get(i).getY(),75,75,null);
+			// Draw Enemies' Attack
+			if(Driver.spawner.getEnemies().get(i).isAttacking())
+				if(Driver.player.getX() < Driver.spawner.getEnemies().get(i).getX())	// Attack Left
+					g.drawImage(plasmaAttack,Driver.player.getX()-Driver.player.getRange(), Driver.player.getY(),Driver.player.getRange(),60,null);
+				else 			// Attack Right
+					g.drawImage(plasmaAttack,Driver.player.getX()+80, Driver.player.getY(),Driver.player.getRange(),60,null);
 		}
 	}
 

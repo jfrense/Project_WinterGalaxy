@@ -39,11 +39,15 @@ public class PlayerView extends JComponent {
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		// Character Animation
-		g.drawImage(imgs[0][imgNum],Driver.player.getX(), Driver.player.getY(),80,80,null);
+		if(Driver.player.isAlive())
+			g.drawImage(imgs[0][imgNum],Driver.player.getX(), Driver.player.getY(),80,80,null);
 		// Movement D-Pad
 		g.drawImage(dPad, 50, Driver.frameHeight-185, 160, 160, null);
-		if(Driver.player.attacking)
+		// Player attack
+		if(Driver.player.isAttacking())
 			g.drawImage(electricAttack,Driver.player.getX()+80, Driver.player.getY(),Driver.player.getRange(),60,null);
+		// Notify enemies of players location and attack if in range
+		Driver.spawner.attack();
 	}
 	
 	//Read images from file and return

@@ -67,7 +67,7 @@ public class UI extends JComponent implements MouseListener{
 			Driver.player.crouch();
 		}
 		else{
-			Driver.player.attacking = true;
+			Driver.player.setAttacking(true);
 			Driver.player.attack();
 		}
 	}
@@ -76,7 +76,7 @@ public class UI extends JComponent implements MouseListener{
 	public void mouseReleased(MouseEvent arg0) {
 		rightHeld = false;
 		leftHeld = false;
-		Driver.player.attacking = false;
+		Driver.player.setAttacking(false);
 	}
 
 }
