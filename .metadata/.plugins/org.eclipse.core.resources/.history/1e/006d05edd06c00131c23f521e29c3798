@@ -19,23 +19,22 @@ import Controller.Driver;
 public class Background extends JComponent{
 	private int x;
 	private String imgLoc;
-	private BufferedImage background, backLoop;
+	private BufferedImage background;
 	
 	public Background(int startX, String img){
 		this.x = startX;
 		this.imgLoc = img;
 		try {
 			background = ImageIO.read(new File("images/Background.png"));
-			backLoop = ImageIO.read(new File("images/BackgroundLoop.png"));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 	}
 	public void paintComponent(Graphics g){
 		super.paintComponent(g);
-		g.drawImage(backLoop,0,0,Driver.frameWidth,Driver.frameHeight,null);
+		g.drawImage(background,-Driver.frameWidth,0,Driver.frameWidth*2,Driver.frameHeight,null);
 		//if(x <= -Driver.frameWidth)
-		//	g.drawImage(background,x,0,Driver.frameWidth,Driver.frameHeight,null);
+			g.drawImage(background,x,0,Driver.frameWidth,Driver.frameHeight,null);
 	}
 
 	

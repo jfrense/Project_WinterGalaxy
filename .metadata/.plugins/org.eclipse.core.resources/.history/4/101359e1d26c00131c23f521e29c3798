@@ -23,7 +23,7 @@ public class Player extends Alien {
 	}
 	public void moveLeft(){
 		if(Driver.background.getX()<=0){
-			//Driver.background.shiftRight();
+			Driver.background.shiftRight();
 			Driver.spawner.shiftAllRight();
 		}
 	}

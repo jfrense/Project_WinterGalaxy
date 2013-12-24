@@ -34,8 +34,8 @@ public class Background extends JComponent{
 	public void paintComponent(Graphics g){
 		super.paintComponent(g);
 		g.drawImage(backLoop,0,0,Driver.frameWidth,Driver.frameHeight,null);
-		//if(x <= -Driver.frameWidth)
-		//	g.drawImage(background,x,0,Driver.frameWidth,Driver.frameHeight,null);
+		if(x <= -Driver.frameWidth)
+			g.drawImage(background,x,0,Driver.frameWidth,Driver.frameHeight,null);
 	}
 
 	

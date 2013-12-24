@@ -18,12 +18,12 @@ public class Player extends Alien {
 		this.isAlive = true;
 	}
 	public void moveRight(){
-		//Driver.background.shiftLeft();
+		Driver.background.shiftLeft();
 		Driver.spawner.shiftAllLeft();
 	}
 	public void moveLeft(){
 		if(Driver.background.getX()<=0){
-			//Driver.background.shiftRight();
+			Driver.background.shiftRight();
 			Driver.spawner.shiftAllRight();
 		}
 	}
