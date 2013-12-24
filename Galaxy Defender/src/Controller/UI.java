@@ -52,6 +52,9 @@ public class UI extends JComponent implements MouseListener{
 
 	@Override
 	public void mousePressed(MouseEvent e) {
+		// Notify enemies of players location and attack if in range
+		Driver.spawner.attack();
+		
 		if((e.getX()>150)&&(e.getX()<210)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
 			Driver.player.moveRight();
 			rightHeld = true;

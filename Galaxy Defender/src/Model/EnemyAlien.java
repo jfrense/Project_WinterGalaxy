@@ -10,6 +10,8 @@ import Controller.Driver;
  *	@version 0.0.1
  *******************************************************************************************/
 public class EnemyAlien extends Alien {
+	public long startTime, currentTime;		// Used for shooting
+	public int plasmaX;
 	/*
 	 * Constructor with Pre-Determined Image 
 	 */
@@ -24,8 +26,19 @@ public class EnemyAlien extends Alien {
 		this.setX(getX()+2);
 	}
 	public void attack(){
+		startTime = System.currentTimeMillis();
+		plasmaX = getX();
+		setAttacking(true);
+	}
+	public void hit(){
 		Driver.player.setHealth(Driver.player.getHealth()-getPower());
 		if(Driver.player.getHealth() <= 0)
 			Driver.player.setAlive(false);
+	}
+	public void setCurrentTime(){
+		currentTime = System.currentTimeMillis();
+	}
+	public void resetPlasmaX(){
+		plasmaX = getX();
 	}
 }

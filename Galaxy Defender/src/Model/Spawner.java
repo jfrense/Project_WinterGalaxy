@@ -22,7 +22,7 @@ public class Spawner {
 	 */
 	public Spawner(int [] sHeights){
 		spawnHeights= sHeights;
-		enemies.add(new EnemyAlien(Driver.frameWidth-gen.nextInt(200), spawnHeights[gen.nextInt(sHeights.length)], 10, 150, 30));
+		enemies.add(new EnemyAlien(Driver.frameWidth-gen.nextInt(200), spawnHeights[gen.nextInt(sHeights.length)], 10, 200, 30));
 	}
 	// Method returns the ArrayList of enemies
 	public ArrayList<EnemyAlien> getEnemies(){
@@ -30,7 +30,7 @@ public class Spawner {
 	}
 	// Method adds 1 enemy
 	public void addEnemy(){
-		enemies.add(new EnemyAlien(Driver.frameWidth+gen.nextInt(300), spawnHeights[gen.nextInt(spawnHeights.length)], 10, 150, 30));
+		enemies.add(new EnemyAlien(Driver.frameWidth+gen.nextInt(300), spawnHeights[gen.nextInt(spawnHeights.length)], 10, 200, 30));
 	}
 	// Method removes the enemy at (xCoor,YCoor)
 	public void removeEnemy(int xCoor, int yCoor){

@@ -46,8 +46,6 @@ public class PlayerView extends JComponent {
 		// Player attack
 		if(Driver.player.isAttacking())
 			g.drawImage(electricAttack,Driver.player.getX()+80, Driver.player.getY(),Driver.player.getRange(),60,null);
-		// Notify enemies of players location and attack if in range
-		Driver.spawner.attack();
 	}
 	
 	//Read images from file and return
