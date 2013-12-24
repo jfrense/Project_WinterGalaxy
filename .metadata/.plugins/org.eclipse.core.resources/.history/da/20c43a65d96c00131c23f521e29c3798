@@ -11,24 +11,20 @@ import Controller.Driver;
 public class Player extends Alien {
 	private int ability;
 	private boolean isAlive; 
-	private int distTraveled;
 	
 	public Player(int xCoor, int yCoor, int power, int range, int health, int ability){
 		super(xCoor, yCoor, power, range, health);
 		this.ability = ability;
 		this.isAlive = true;
-		this.distTraveled = 0;
 	}
 	public void moveRight(){
 		//Driver.background.shiftLeft();
 		Driver.spawner.shiftAllLeft();
-		distTraveled++;
 	}
 	public void moveLeft(){
 		if(Driver.background.getX()<=0){
 			//Driver.background.shiftRight();
 			Driver.spawner.shiftAllRight();
-			distTraveled--;
 		}
 	}
 	public void jump(){
@@ -60,8 +56,5 @@ public class Player extends Alien {
 	}
 	public void setAlive(boolean a){
 		this.isAlive = a;
-	}
-	public int getDistTraveled(){
-		return distTraveled;
 	}
 }

@@ -32,7 +32,6 @@ public class EnemyAlien extends Alien {
 	}
 	public void hit(){
 		Driver.player.setHealth(Driver.player.getHealth()-getPower());
-		System.out.println("Health: " + Driver.player.getHealth());
 		if(Driver.player.getHealth() <= 0){
 			Driver.spawner.stopAll();
 			Driver.player.setAlive(false);

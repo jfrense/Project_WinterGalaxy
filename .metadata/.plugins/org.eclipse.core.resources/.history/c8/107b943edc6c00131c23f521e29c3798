@@ -46,6 +46,7 @@ public class PlayerView extends JComponent {
 		// Player attack
 		if(Driver.player.isAttacking())
 			g.drawImage(electricAttack,Driver.player.getX()+80, Driver.player.getY(),Driver.player.getRange(),60,null);
+		System.out.println("Health: " + Driver.player.getHealth());
 	}
 	
 	//Read images from file and return

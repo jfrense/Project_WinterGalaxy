@@ -21,10 +21,9 @@ public class Spawner {
 	/*
 	 * Constructor instantiates optional spawn heights, and adds 1 enemy.
 	 */
-	public Spawner(int [] sHeights, int frequency){
+	public Spawner(int [] sHeights){
 		spawnHeights= sHeights;
-		enemies.add(new EnemyAlien(Driver.frameWidth-gen.nextInt(200), spawnHeights[gen.nextInt(sHeights.length)], 10, 480, 30));
-		freq = frequency;
+		enemies.add(new EnemyAlien(Driver.frameWidth-gen.nextInt(200), spawnHeights[gen.nextInt(sHeights.length)], 10, 380, 30));
 	}
 	// Method returns the ArrayList of enemies
 	public ArrayList<EnemyAlien> getEnemies(){
@@ -32,7 +31,7 @@ public class Spawner {
 	}
 	// Method adds 1 enemy
 	public void addEnemy(){
-		enemies.add(new EnemyAlien(Driver.frameWidth+gen.nextInt(300), spawnHeights[gen.nextInt(spawnHeights.length)], 10, 480, 30));
+		enemies.add(new EnemyAlien(Driver.frameWidth+gen.nextInt(300), spawnHeights[gen.nextInt(spawnHeights.length)], 10, 380, 30));
 	}
 	// Method removes the enemy at (xCoor,YCoor)
 	public void removeEnemy(int xCoor, int yCoor){
@@ -65,10 +64,5 @@ public class Spawner {
 			enemies.get(i).setAttacking(false);
 		}
 	}
-	public int getFreq(){
-		return freq;
-	}
-	public void setFreq(int frequency){
-		freq = frequency;
-	}
+	
 }

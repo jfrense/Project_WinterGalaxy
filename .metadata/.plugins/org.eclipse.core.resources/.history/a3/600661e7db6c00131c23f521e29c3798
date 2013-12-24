@@ -18,7 +18,7 @@ public class Driver {
 	public static JLayeredPane pane = new JLayeredPane();
 	public static UI uI = new UI();
 	public static Background background = new Background(0, "images\background");
-	public static Spawner spawner = new Spawner(new int[]{190,280,418}, 300);
+	public static Spawner spawner = new Spawner(new int[]{190,280,418}, 400);
 	public static Player player = new Player(150,418,15,100,100, 1);
 	public static PlayerView pView = new PlayerView();
 	public static EnemyView eView = new EnemyView();

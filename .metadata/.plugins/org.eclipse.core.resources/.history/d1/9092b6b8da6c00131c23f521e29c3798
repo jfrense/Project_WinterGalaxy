@@ -28,14 +28,10 @@ public class UI extends JComponent implements MouseListener{
 			Driver.player.moveLeft();
 		}
 		
-		// Spawn enemies based on spawn frequency 
-		if(((Driver.player.getDistTraveled() % Driver.spawner.getFreq()) == 0) && (!stopped)){
+		if(((Driver.player.getDistTraveled() % 500) == 0) && (!stopped)){
 			Driver.spawner.addEnemy();
 			stopped = true;
 		}
-		// Prevent infinite spawning, when stopped on a spawn interval
-		if(((Driver.player.getDistTraveled() % Driver.spawner.getFreq()) != 0))
-				stopped = false;
 		repaint();
 	}
 
@@ -59,10 +55,12 @@ public class UI extends JComponent implements MouseListener{
 		if((e.getX()>150)&&(e.getX()<210)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
 			Driver.player.moveRight();
 			rightHeld = true;
+			stopped = false;
 		}
 		else if ((e.getX()>50)&&(e.getX()<110)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
 			Driver.player.moveLeft();
 			leftHeld = true;
+			stopped = false;
 		}
 		else if ((e.getX()>100)&&(e.getX()<160)&&(e.getY()>Driver.frameHeight-185)&&(e.getY()<Driver.frameHeight-125)){
 			Driver.player.jump();

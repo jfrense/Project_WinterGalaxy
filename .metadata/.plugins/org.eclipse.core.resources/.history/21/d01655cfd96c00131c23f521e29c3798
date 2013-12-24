@@ -13,7 +13,7 @@ import javax.swing.JComponent;
  *	@version 0.0.1
  *******************************************************************************************/
 public class UI extends JComponent implements MouseListener{
-	public boolean rightHeld, leftHeld, stopped;
+	public boolean rightHeld, leftHeld;
 	
 	public UI(){
 		addMouseListener(this);
@@ -28,19 +28,16 @@ public class UI extends JComponent implements MouseListener{
 			Driver.player.moveLeft();
 		}
 		
-		// Spawn enemies based on spawn frequency 
-		if(((Driver.player.getDistTraveled() % Driver.spawner.getFreq()) == 0) && (!stopped)){
+		if(moveCount > 500){
 			Driver.spawner.addEnemy();
-			stopped = true;
+			moveCount = 0;
 		}
-		// Prevent infinite spawning, when stopped on a spawn interval
-		if(((Driver.player.getDistTraveled() % Driver.spawner.getFreq()) != 0))
-				stopped = false;
 		repaint();
 	}
 
 	@Override
 	public void mouseClicked(MouseEvent e) {
+		//System.out.println("X: " + e.getX() +"\t Y: " + e.getY());
 	}
 
 	@Override

@@ -17,7 +17,6 @@ public class Player extends Alien {
 		super(xCoor, yCoor, power, range, health);
 		this.ability = ability;
 		this.isAlive = true;
-		this.distTraveled = 0;
 	}
 	public void moveRight(){
 		//Driver.background.shiftLeft();
