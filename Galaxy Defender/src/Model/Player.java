@@ -12,6 +12,7 @@ public class Player extends Alien {
 	private int ability;
 	private boolean isAlive; 
 	private int distTraveled;
+	private int enemiesEliminated;	
 	
 	public Player(int xCoor, int yCoor, int power, int range, int health, int ability){
 		super(xCoor, yCoor, power, range, health);
@@ -49,8 +50,10 @@ public class Player extends Alien {
 				if((Driver.spawner.getEnemies().get(i).getX() > getX()) && (Driver.spawner.getEnemies().get(i).getX() < getX()+getRange()+80) &&
 				  (Driver.spawner.getEnemies().get(i).getY() == getY())){
 					Driver.spawner.getEnemies().get(i).setHealth(Driver.spawner.getEnemies().get(i).getHealth() - getPower());
-						if(Driver.spawner.getEnemies().get(i).getHealth() <= 0)
+						if(Driver.spawner.getEnemies().get(i).getHealth() <= 0){
+							enemiesEliminated++;
 							Driver.spawner.getEnemies().remove(i);
+						}
 				}
 			}
 		}
@@ -63,5 +66,8 @@ public class Player extends Alien {
 	}
 	public int getDistTraveled(){
 		return distTraveled;
+	}
+	public int getNumEliminated(){
+		return enemiesEliminated;
 	}
 }

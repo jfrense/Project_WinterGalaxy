@@ -23,10 +23,8 @@ import Controller.Driver;
 public class PlayerView extends JComponent {
 	BufferedImage[][] imgs;
 	BufferedImage dPad,electricAttack;
-	public JLabel healthLabel;
 	public int imgNum = 0;
 	public int frameCount = 4;
-	public int hBarLoc = 50;
 	public PlayerView(){
 		BufferedImage[] img = createAnimation();
 		imgs = new BufferedImage[img.length][frameCount];
@@ -37,7 +35,6 @@ public class PlayerView extends JComponent {
 		try {
 			dPad = ImageIO.read(new File("images/D-Pad.png"));
 			electricAttack = ImageIO.read(new File("images/ElectricAttack.png"));
-			healthLabel = new JLabel("Health");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -55,30 +52,6 @@ public class PlayerView extends JComponent {
 		if(Driver.player.isAttacking())
 			g.drawImage(electricAttack,Driver.player.getX()+80, Driver.player.getY(),Driver.player.getRange(),60,null);
 		
-		// Health Bar
-		add(healthLabel);
-		healthLabel.setBounds(hBarLoc+10, 10, 60, 50);
-		Graphics2D g2d = (Graphics2D) g;
-		g2d.setStroke(new BasicStroke(3));
-		g2d.drawRect(hBarLoc, 10, 60, 50);
-		g2d.drawRect(hBarLoc+60, 10, 202, 50);
-		g2d.setColor(new Color(255, 0, 0));					// Low Attract => Red
-		// Negative Case
-		if(Driver.player.getHealth() < 0)				
-			g2d.fillRect(hBarLoc+62, 12, 0, 47);
-		// Normal Case
-		else if(Driver.player.getHealth() <= 100){		
-			if ((Driver.player.getHealth() > 33) && (Driver.player.getHealth() <= 66))
-				g2d.setColor(new Color(255, 255, 0));			// Medium Attract => Yellow 
-			else if(Driver.player.getHealth() > 66)
-				g2d.setColor(new Color(0, 255, 0));			// Good Attract => Green
-			g2d.fillRect(hBarLoc+62, 12, Driver.player.getHealth()*2, 47);
-		}
-		// Over Max Case
-		else {													
-			g2d.setColor(new Color(0, 255, 0));				// Good Attract => Green
-			g2d.fillRect(hBarLoc+62, 12, 200, 47);
-		}
 		repaint();
 	}
 	

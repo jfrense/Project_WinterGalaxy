@@ -18,6 +18,7 @@ public class Driver {
 	public static JLayeredPane pane = new JLayeredPane();
 	public static UI uI = new UI();
 	public static StartMenu sMenu = new StartMenu();
+	public static StatusBar sBar = new StatusBar();
 	public static Background background = new Background(0, "images\background");
 	public static Spawner spawner = new Spawner(new int[]{190,280,418}, 300);
 	public static Player player = new Player(150,418,15,100,100, 1);
@@ -29,12 +30,14 @@ public class Driver {
 		frame.setSize(frameWidth, frameHeight);
 		uI.setSize(frameWidth, frameHeight);
 		sMenu.setSize(frameWidth, frameHeight);
+		sBar.setSize(frameWidth, frameHeight);
 		pView.setSize(frameWidth, frameHeight);
 		eView.setSize(frameWidth, frameHeight);
 		background.setSize(frameWidth, frameHeight);
 		frame.add(pane);
 		pane.add(uI);
 		pane.add(sMenu);
+		pane.add(sBar);
 		pane.add(pView);
 		pane.add(eView);
 		pane.add(background);
