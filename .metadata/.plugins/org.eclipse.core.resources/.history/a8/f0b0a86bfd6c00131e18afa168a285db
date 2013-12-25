@@ -53,7 +53,6 @@ public class UI extends JComponent implements MouseListener{
 				System.exit(0);
 			}
 		}
-		
 		// Gameplay Controls
 		else{
 			if((e.getX()>150)&&(e.getX()<210)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
