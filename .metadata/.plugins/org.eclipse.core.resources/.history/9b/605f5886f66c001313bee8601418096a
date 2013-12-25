@@ -28,13 +28,11 @@ public class Driver {
 		JFrame frame = new JFrame();
 		frame.setSize(frameWidth, frameHeight);
 		uI.setSize(frameWidth, frameHeight);
-		sMenu.setSize(frameWidth, frameHeight);
 		pView.setSize(frameWidth, frameHeight);
 		eView.setSize(frameWidth, frameHeight);
 		background.setSize(frameWidth, frameHeight);
 		frame.add(pane);
 		pane.add(uI);
-		pane.add(sMenu);
 		pane.add(pView);
 		pane.add(eView);
 		pane.add(background);

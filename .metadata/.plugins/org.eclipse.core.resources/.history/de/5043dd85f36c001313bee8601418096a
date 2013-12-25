@@ -44,7 +44,7 @@ public class EnemyView extends JComponent{
 					Driver.spawner.getEnemies().get(i).plasmaX -= (int)(0.01*(Driver.spawner.getEnemies().get(i).currentTime - Driver.spawner.getEnemies().get(i).startTime));
 					
 					// If player is hit
-					if((Driver.spawner.getEnemies().get(i).plasmaX <= Driver.player.getX()) && (Driver.spawner.getEnemies().get(i).getY() == Driver.player.getY())){
+					if(Driver.spawner.getEnemies().get(i).plasmaX <= Driver.player.getX()){
 						Driver.spawner.getEnemies().get(i).hit();
 						Driver.spawner.getEnemies().get(i).resetPlasmaX();
 					}

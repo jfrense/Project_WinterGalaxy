@@ -47,9 +47,6 @@ public class UI extends JComponent implements MouseListener{
 			if((e.getX()>150)&&(e.getX()<Driver.frameWidth-150)&&(e.getY()>150)&&(e.getY()<(int)((Driver.frameHeight/2)-10))){
 				Driver.sMenu.setDisplay(false);
 			}
-			else if((e.getX()>150)&&(e.getX()<Driver.frameWidth-150)&&(e.getY()>(int)(Driver.frameHeight*0.67))&&(e.getY()<(int)((Driver.frameHeight*.9)))){
-				System.exit(0);
-			}
 		}
 		else{
 			if((e.getX()>150)&&(e.getX()<210)&&(e.getY()>Driver.frameHeight-160)&&(e.getY()<Driver.frameHeight-60)){
